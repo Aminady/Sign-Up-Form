@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 650px;
+    background-color: rgb(226, 227, 228);
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+img {
+    width: 400px;
+    height: 660px;
+}
+
+div > .image {
+    position: relative;
+    top: -500px;
+    height: 100px;
+    width: 400px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    opacity: 0.3;
+}
+
+div > .text {
+    position: relative;
+    top: -570px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 18px; */
+    font-weight: bold;
+    margin: 100px 0px 20px 0px;
+    padding-left: 40px;
+}
+
+h1{
+    width: 900px;
+
+}
+
+.sign-up {
+    width: 970px;
+    height: 300px;
+    padding-left: 40px;
+    font-size: 16px;
+    font-weight: 200;
+    background-color: white;
+    box-shadow: 1px 5px 8px rgba(43, 42, 42, 0.589);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* gap: 30px;     */
+}
+
+
+.form-row {
+    width: 300px;
+    height: 60px;
+    /* margin-top: 20px; */
+    /* margin-bottom: 10px; */
+}
+
+input[type = 'text']:focus,
+input[type = 'email']:focus,
+input[type = 'password']:focus,
+input[type = 'tel']:focus{ 
+    border-color: rgb(200, 249, 255);
+    box-shadow: 1px 3px 10px rgba(177, 220, 235, 0.795)
+}
+
+input[type = 'text'],
+input[type = 'email'],
+input[type = 'password'],
+input[type = 'tel'] {
+    width: 250px;
+    height: 23px;
+    margin-top: 5px;
+}
+
+input[type = 'password']:invalid {
+    border: 1px solid red;
+}
+
+button {
+    color: white;
+    width: 200px;
+    height: 35px;
+    margin: 20px 0 0 0;
+    border-radius: 5px;
+    border: none;
+    background: rgba(9, 80, 9, 0.705);
+    box-shadow: 1px 5px 5px rgba(43, 42, 42, 0.589);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+a {
+    color: green;
+}
+
+a:visited {
+    color: orangered;
+}
