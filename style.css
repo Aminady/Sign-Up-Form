@@ -6,7 +6,7 @@
 
 
 body {
-    height: 650px;
+    height: 100vh;
     background-color: rgb(226, 227, 228);
     display: flex;
     flex-direction: row;
@@ -14,8 +14,8 @@ body {
 }
 
 img {
-    width: 400px;
-    height: 660px;
+    width: 100%;
+    height: 100vh;
 }
 
 div > .image {
@@ -46,12 +46,11 @@ h3 {
 }
 
 h1{
-    width: 900px;
-
+    width: 100%;
 }
 
 .sign-up {
-    width: 970px;
+    width: 100%;
     height: 300px;
     padding-left: 40px;
     font-size: 16px;
@@ -61,15 +60,12 @@ h1{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* gap: 30px;     */
 }
 
 
 .form-row {
     width: 300px;
     height: 60px;
-    /* margin-top: 20px; */
-    /* margin-bottom: 10px; */
 }
 
 input[type = 'text']:focus,
@@ -84,7 +80,7 @@ input[type = 'text'],
 input[type = 'email'],
 input[type = 'password'],
 input[type = 'tel'] {
-    width: 250px;
+    width: 90%;
     height: 23px;
     margin-top: 5px;
 }
